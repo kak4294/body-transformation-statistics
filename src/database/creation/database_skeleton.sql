@@ -1,0 +1,1 @@
+-- This file is used to create the skeleton of the database.
