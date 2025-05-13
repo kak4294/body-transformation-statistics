@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS ResistanceWorkouts(
 
 CREATE TABLE IF NOT EXISTS MuscleWorkouts(
     id                      INT AUTO_INCREMENT PRIMARY KEY,
-    muscle_group_id       INT NOT NULL,
+    muscle_group_id         INT NOT NULL,
     workout_name            varchar(255) NOT NULL,
     notes                   TEXT,
     CONSTRAINT fk_muscleworkout_group
